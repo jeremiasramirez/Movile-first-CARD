@@ -1,0 +1,12 @@
+{
+  "name": "formularios-js",
+  "version": "1.0.0",
+  "description": "Proyecto de practicas de formularios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jeremias ramirez",
+  "license": "ISC"
+}

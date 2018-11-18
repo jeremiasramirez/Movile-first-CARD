@@ -1,0 +1,118 @@
+ 
+ :root{
+	/*variables css*/
+	--colorTitle: #222;
+	--colorTitleLine: #444;
+	--colorParagraph: #ccc;
+ }
+
+ body{
+ 	padding:0;
+ 	margin:0;
+ }
+ .card-person{
+	background-color: var(--colorTitle);
+	padding: .5em;
+	color: white;
+ }
+	.card-person__title{
+		padding:0;
+		margin:0;
+		margin-top: .1em;
+		font-weight: 900;
+		padding-bottom: .3em;
+		line-height:2rem;
+		text-align: center;
+		font-family: sans-serif;
+		letter-spacing: .8px;
+		word-spacing: 1px;
+		text-decoration-line: underline;
+		text-decoration-color: var(--colorTitleLine);
+	}
+	.card-person__date-featured{
+		 text-align: right;
+		 margin-bottom: .3rem;
+	}
+	.card-person__date{
+		display: inline-block;
+		padding:0;
+		margin:0;
+		padding: .8em;
+		font-size: .8rem;
+		letter-spacing: .1rem;
+		font-style: italic;
+		font-family: sans-serif;
+		background-color: #444;
+		text-align: center;
+		border-radius: 10px;
+	}
+	.card-person__caracteristic{
+		margin:0;
+		padding-left: 1.8rem;		
+		color: var(--colorParagraph);
+		padding-bottom: .5em;
+		font-size: 18px;
+		font-family: sans-serif;
+
+	}
+  	.card-person__image-1{
+  		max-width: 100%;
+  		display: inline-block;
+  	}
+  	.card-person__likes{
+  		background-color: #333;
+  		padding-top: .3em;
+  		padding-bottom: 1em;
+  	}
+  	.card-person__likes__title{
+  		padding-top:.4em;
+  		padding-bottom:.9em;
+  		margin:0;
+  		font-size: 1.5rem;
+		font-family: sans-serif;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		text-align: center;
+		font-weight: 800;
+  	}
+  	.card-person__likes__item{
+  		list-style: none;
+  		padding-top: .5em;
+  		font-family:tahoma;
+  		letter-spacing: 1px;
+  		word-spacing: 1px;
+  	}
+
+@media screen and (min-width: 320px){
+  		
+  	.overlay__images {
+  		position: fixed;
+  		background-color: rgba(0%,0%, 0%,.900);
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		max-width: 100%;
+  	}
+  	.overlayImg{
+  		max-width: 100%;
+		transform: scale(.9);
+  	}
+
+  	}
+  	@media screen and (min-width: 750px){
+
+.overlayImg{
+  		max-width: 85%;
+		transform: scale(.9);
+  	}
+
+  	}
+
+  @media screen and (min-width: 900px){
+
+	.overlayImg{
+  		max-width: 100%;
+		transform: scale(.7);
+  	}
+
+  		}
